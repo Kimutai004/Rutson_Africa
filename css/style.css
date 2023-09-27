@@ -1,9 +1,21 @@
 body {
-  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
   margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
 }
+
+.container {
+  flex: 1; /* Allow the container to grow and fill the available vertical space */
+}
+
+.main-footer {
+  /* Your existing footer styles */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
 /* Navigation Bar*/
 
 nav{
@@ -199,13 +211,14 @@ a {
   left: 70px;
   top: 70px;
   width: 600px;
-  height: 11px;
+  height: 450px;
 }
 .footer {
   position: absolute;
   left: 0px;
   top: 1500px;
   width: 100%;
+  color: white ;
   height: 240px;
   background: #547246;
   background-blend-mode: normal;
