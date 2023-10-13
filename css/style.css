@@ -353,7 +353,7 @@ a {
 }
 
 .team-member-info {
-    text-align: left; /* Align text to the left within the info box */
+    text-align: center; /* Align text to the left within the info box */
 }
 
 .team-member-info h2 {
@@ -381,7 +381,7 @@ a {
   width: 400px;
   height: 205px;
   border-radius: 8px;
-  background: #b2dfdb;
+  background:  #b1c9c7;
   background-blend-mode: normal;
 }
 .avatar {
@@ -394,7 +394,7 @@ a {
 }
 .test-text{
   position: absolute;
-  left: 120px;
+  left: 160px;
   top: 0px;
   width: 200px;
   height: 165px;
@@ -408,7 +408,7 @@ a {
   left: 350px;
   width: 400px;
   height: 205px;
-  background: #b2dfdb;
+  background: #b1c9c7;
   background-blend-mode: normal;
   
 }
@@ -418,7 +418,7 @@ a {
   width: 400px;
   height: 205px;
   border-radius: 8px;
-  background: #b2dfdb;
+  background: #b1c9c7;
   background-blend-mode: normal;
 }
 #controlsPa {
@@ -687,7 +687,22 @@ label{
   width: 150px;
   margin-right: 10px;
 }
-#inputField{
+#fullName{
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+#phoneNumber{
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+#email{
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+#message{
   border-radius: 10px;
   padding: 10px;
   width: 300px;
@@ -737,4 +752,36 @@ label{
 h4{
   margin-top: 0px;
   margin-left: 20px;
+}
+.thankyou{
+  position: absolute;
+  left: 200px;
+  top: 156px;
+  width: 1044px;
+  height: 500px;
+  border-radius: 20px;
+  background: #d1c4e9;
+  background-blend-mode: normal;
+}
+.thank_text{
+  position: absolute;
+  left: 550px;
+  top: 80px;
+  width: 400px;
+  height: 288px;
+  background-blend-mode: normal;
+}
+#thankYoufo {
+  position: absolute;
+  left: 63.25px;
+  top: 55.8px;
+  width: 379.5px;
+  height: 216.4px;
+  color: black;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
